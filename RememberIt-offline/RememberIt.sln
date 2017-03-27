@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RememberIt", "RememberIt\RememberIt.csproj", "{AFEC2909-5F4B-4F9F-B4B0-042CC299030A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RememberIt.UITests", "RememberIt.UITests\RememberIt.UITests.csproj", "{DDE7269C-E983-41F3-87D2-E322316BCEE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFEC2909-5F4B-4F9F-B4B0-042CC299030A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFEC2909-5F4B-4F9F-B4B0-042CC299030A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFEC2909-5F4B-4F9F-B4B0-042CC299030A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFEC2909-5F4B-4F9F-B4B0-042CC299030A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE7269C-E983-41F3-87D2-E322316BCEE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE7269C-E983-41F3-87D2-E322316BCEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE7269C-E983-41F3-87D2-E322316BCEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE7269C-E983-41F3-87D2-E322316BCEE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
