@@ -10,6 +10,7 @@ using Android.Content;
 
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using Xamarin.Auth;
+using System.Runtime.CompilerServices;
 
 namespace RememberIt
 {
@@ -123,7 +124,7 @@ namespace RememberIt
             };
 
             var intent = auth.GetUI(this);
-            StartActivity(intent);
+            StartActivity(intent as Intent);
         }
 
         protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
